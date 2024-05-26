@@ -1,0 +1,74 @@
+# Root-level ignores
+/.env
+/node_modules
+/dist
+/build
+/.cache
+/coverage
+/logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore directory_structure.txt
+directory_structure.txt
+
+# Ignore steps directory
+steps
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore Docker-related files
+docker-compose.override.yml
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.swp
+
+# Backend-specific ignores
+backend/node_modules/
+backend/.env
+backend/.yarn/
+backend/yarn-error.log
+backend/yarn-debug.log
+backend/npm-debug.log
+backend/package-lock.json
+backend/.pnp
+backend/.pnp.js
+backend/.yarn-integrity
+
+# Database-specific ignores
+database/data/
+database/logs/
+
+# Frontend-specific ignores
+frontend/node_modules/
+frontend/.env
+frontend/.yarn/
+frontend/yarn-error.log
+frontend/yarn-debug.log
+frontend/npm-debug.log
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/package-lock.json
+frontend/.pnp
+frontend/.pnp.js
+frontend/.yarn-integrity
+frontend/public/
+
+# Ignore logs and coverage reports
+*.log
+coverage/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore miscellaneous
+*.pem
+*.crt
+*.key

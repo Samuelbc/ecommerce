@@ -1,0 +1,4 @@
+# database/.dockerignore
+
+.dockerignore
+Dockerfile
